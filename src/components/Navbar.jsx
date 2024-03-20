@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="bg-white sticky top-0 py-5 flex justify-between items-center">
+    <div className="bg-white  sticky top-0 z-40 py-5 flex justify-between items-center">
       <h1 className="text-xl">CARENT</h1>
       <ul className="flex space-x-5 text-sm font-semibold">
         <li>Home</li>
