@@ -4,13 +4,13 @@ import Search from "../components/Search";
 import Catalogue from "../components/Catalogue";
 import Cars from "../components/Cars";
 
-const Home = () => {
+const Home = ({ cars }) => {
   return (
-    <div className="w-4/5 m-auto">
+    <div className="">
       <Navbar />
       <Search />
       <Catalogue />
-      <Cars />
+      <Cars cars={cars} />
     </div>
   );
 };

@@ -22,7 +22,7 @@ const Catalogue = () => {
     }));
   };
   return (
-    <div className="flex justify-between items-center">
+    <div className="w-11/12 md:w-4/5 m-auto flex flex-col md:flex-row space-y-5 md:space-y-0 justify-between items-center">
       <div className="space-y-1">
         <h1 className="text-4xl font-bold">Car Catalogue</h1>
         <p>Explore out cars you might like!</p>
@@ -51,7 +51,7 @@ const Catalogue = () => {
             onChange={handleSelectChange}
             className="block appearance-none w-full bg-white border border-gray-300 rounded-md py-2 px-4 leading-tight focus:outline-none focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
           >
-            <option value="">Select Rating</option>
+            <option value="">Select Category</option>
             <option value="1">*</option>
             <option value="2">**</option>
             <option value="3">***</option>
@@ -67,7 +67,7 @@ const Catalogue = () => {
             onChange={handleSelectChange}
             className="block appearance-none w-full bg-white border border-gray-300 rounded-md py-2 px-4 leading-tight focus:outline-none focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
           >
-            <option value="">Select Rating</option>
+            <option value="">Select vendor</option>
             <option value="1">*</option>
             <option value="2">**</option>
             <option value="3">***</option>
@@ -83,7 +83,7 @@ const Catalogue = () => {
             onChange={handleSelectChange}
             className="block appearance-none w-full bg-white border border-gray-300 rounded-md py-2 px-4 leading-tight focus:outline-none focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
           >
-            <option value="">Select Rating</option>
+            <option value="">Select Sedan</option>
             <option value="1">*</option>
             <option value="2">**</option>
             <option value="3">***</option>
