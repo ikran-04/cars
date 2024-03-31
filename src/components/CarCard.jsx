@@ -20,12 +20,11 @@ const CarCard = ({ car }) => {
                 <span className="text-xs">$</span>
                 <span className="text-3xl font-bold">{car.price}</span>
               </span>
-              <span className="text-sm text-gray-400">/day</span>
             </h1>
             <img src={car.image} alt={car.model} />
             {isHovered ? (
               <button className="w-full p-3 bg-indigo-600/80 text-white rounded-lg">
-                Rent Now
+                Buy Now
               </button>
             ) : (
               <div className="flex justify-between">
